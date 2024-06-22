@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>PAYMENT FORM</title>
+    <link rel="stylesheet" href="C:\Users\user\OneDrive\Desktop\html\csssssssssss.css">
+</head>
+<body>
+   <div class="container">
+    <FORM><!--for creating form-->
+        <h1 class="main_heading">payment form</h1>
+        <hr>
+        <h2>contact information</h2>
+        <p>required field marked by *</p>
+        <p>*name:<input type="text" name="name" required name="name" placeholder=""></p>
+      <fieldset><!--use to rap the text inside box-->
+        <legend>GENDER</legend>
+        <p>
+            male <input type="radio" name="gender" id=""><!--input type use to choice between two name must be same as foe unique choice-->
+            female <input type="radio" name="gender" id="">
+        </p>
+    </fieldset>
+    <p>ADDRESS: <textarea name="address" id="" cols="10" rows="10"></textarea></p><!--textarea use for multiple line paragraph for input-->
+    <p>Email: <input type="email" name="Email" id=""></p><!--input type email is use for correct email address-->
+   <fieldset>
+    <p>Pincode: <input type="number"name="pincode"id="" </p><!--input type number is for numeric input-->
+   </fieldset>
+   <h2>PAYMENT INFORMATION</h2>
+   <P><h4> CARD TYPE: </h4> 
+    <select name="card_type" id="card_type">
+        <option value="">-- <h4> select the card type</h4>--</option>
+        <option value="visa">visa</option>
+        <option value="Gpay">Gpay</option>
+        <option value="Paytem">paytem</option>
+     </select>
+   </P>
+<p>
+   <h4> card number</h4> <input type="number" name="card number" id="card number"><!--number type for numeric value-->
+</p>
+<p>
+   <h4>expiration date</h4>  <input type="date" name="date" id="date"><!--date type for inbuild calculator-->
+</p>
+<p>
+   <h4> cvv </h4> <input type="password" name="cvv" id="cvv"><!--password for confidential password-->
+</p>
+
+<input type="submit" value="PAY NOW"><!--submit for submit button-->
+   </FORM>
+</div>
+</body>
+</html>
